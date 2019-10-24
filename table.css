@@ -1,0 +1,123 @@
+
+body{
+    background-color: lightgrey; 
+}
+
+#container{
+    max-width: 600px;
+    background-color: rgb(168, 223, 224);
+    width : 80%;
+    margin: auto;
+    margin-top : 30px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border : 5px solid rgb(168, 223, 224);
+    border-radius: 5%;
+    box-shadow:0 5px rgb(130, 178, 197); 
+    padding-top: 20px;
+}
+
+#scoredisplay {
+    padding: 10px;   
+    background: lightgreen;
+    border: 3px solid lightgreen;
+    border-radius: 2%;
+    margin-left:500px; 
+    padding-left: 10px;
+    box-shadow:0 5px rgb(65, 228, 133);  
+    display: inline;
+}
+
+#display{
+    background-color:rgb(171, 125, 245); 
+    padding: 20px 20%;
+    box-shadow:0 5px rgb(180, 92, 240);
+    border-radius: 2%; 
+    margin-top:25px; 
+    font-size : 180px;
+    text-align: center;
+    height: 200px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#answer {
+    padding: 2% 20%;
+    background: rgb(231, 96, 231);
+    border-radius: 2%;
+    box-shadow:0 5px rgb(231, 50, 231);
+    text-align: center;
+}
+
+.multiplechoice {
+    background: white;
+    width: 20%;
+    float : left;
+    margin: 2.5%;
+    margin-top : 2px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    height: 80px;
+    font-size:50px; 
+    text-align: center;
+    border-radius: 15%;
+}
+#timep{
+    display: inline;
+    text-align: right;
+    background: lightgreen;
+    box-shadow:0 5px rgb(65, 228, 133); 
+    padding: 10px; 
+    margin-left : 60px;
+}
+
+button {
+    margin-left: 252px;;
+    padding: 10px; 
+    background : rgb(109, 180, 204);
+    border: none;
+    border-radius: 2%;
+    box-shadow:0 5px rgb(58, 173, 211);
+    width: 100px;
+    height: 34px;
+}
+
+#gameResult{
+    display: inline-block;
+    background: lightgreen;
+     /* padding: 10px;     */
+    background: lightgreen;
+     /* border: 3px solid lightgreen;  */
+    border-radius: 2%;
+    text-align: center;
+    margin-left: 250px;
+    box-shadow:0 5px rgb(65, 228, 133);
+    margin-bottom:0; 
+    margin-top:0; 
+    width: 100px;
+    height: 20px;
+   /* padding-top: 2px;*/
+
+}
+
+.ending {
+    background: orange;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 50px;
+    box-shadow:0 5px rgb(223, 140, 46);
+    border-radius: 5px;
+    vertical-align: text-bottom;
+    text-align: center;
+    margin-top: 35px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    width: 400px;
+    height: 100px; 
+}
+
+.display {
+    display: none;
+}
+
+
